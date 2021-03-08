@@ -2,6 +2,9 @@
   <div class="expression-exercises container">
     <div class="row">
       <div class="col-12">
+
+        <h1>Test???????</h1>
+
         <h1>Exercises</h1>
         <div class="border p-1">
           <p>
@@ -26,6 +29,7 @@
 <script>
   import { reactive, toRefs } from "vue";
   export default {
+    name: "ExpressionsExcercises",
     setup() {
       const output = reactive({phrase: 'Hello World!'})
 
